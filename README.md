@@ -28,6 +28,10 @@ Mixture Of Gaussian을 이용한 전경 배경 구분
  MFC
 
 
+개발 툴
+
+ VisualStudio2012
+
 참고문헌 
 
  P. W. Power and J. A. Schoonees, "Understanding Background Mixture Models for Foreground Segmentation", Proc. of Image and Vision Computing, Auckland, New Zealand, pp.267-271, Nov. 2002
