@@ -1,37 +1,30 @@
 # GaussiansMixtureModel
-Mixture Of Gaussian을 이용한 전경 배경 구분
 
-개요
+### 수강과목 : 캡스톤 디자인1(4학년 1학기 졸업작품)
 
- 주위 환경 변화에 적응 가능한 가우시안 혼합 모델(Gaussian Mixture Models)을 이용하여 전경(움직이는 객체)와 배경의 분리
+### 프로젝트 개요 :  
+변화에 적응 가능한 **가우시안 혼합 모델(Gaussian Mixture Models)** 을 이용하여 전경(움직이는 객체)과 배경을 분리하는 프로그램
 
+### 기간 : 2015.03 ~ 2015.06
 
-목표설정
+### 주요 기능 :
+- **[참고논문][1]** 을 바탕으로 영상(Bitmap)의 배경과 전경을 분리하는 알고리즘 구현
+- 배경과 분리된 전경 영상의 **salt&pepper Noise** 를 제거하기 위해 **Median Filter** 구현 및 적용
+- 배경과 분리된 전경 영상의 객체를 파악하기 위해 **4-neighborhood two-pass** 방식의 **Labeling** 알고리즘 구현
+- **MFC** 를 이용하여 프로그램 사용에 편리한 **GUI** 구현
 
- - 가우시안 혼합 모델(GMM)
-   연산의 초기값과 수식을 앞서 언급한 논문을 바탕으로 구현.
+#### **사용 기술** : `MFC`, `C++`, `Non openCV`
 
- - Median Filter
-   영상의 화소와 처리 시간에 맞게 3*3 마스크를 이용하여 구현.
+#### **사용 툴** : `Visual Studio 2012`
 
- - Image Labeling
-   이용방법이 간단하고 재귀 함수에 의한 연결영역 검색 방법보다 처리 시간이 빠른
-   4-neighborhood two-pass 방식의 Labeling을 구현.
-   영상마다 다양한 객체가 존재하기 때문에 Labeling Size를 사용자가 입력할 수 있도록
-   구현.
-   Labeling이 적용된 각 객체에 사용자가 쉽게 볼 수 있도록 두께 2 px 빨간색 테두리를
-   적용
+#### [보고서][2]
 
+### SCREEN SHOT
+-------
 
-개발언어
+<img src="img/screen_shot_1.png" width="400px"> 
+<img src="img/screen_shot_2.png" width="300px"> <img src="img/screen_shot_3.png" width="300px"> 
+<img src="img/screen_shot_4.png" width="300px"> <img src="img/screen_shot_5.png" width="300px"> 
 
- MFC
-
-
-개발 툴
-
- VisualStudio2012
-
-참고문헌 
-
- P. W. Power and J. A. Schoonees, "Understanding Background Mixture Models for Foreground Segmentation", Proc. of Image and Vision Computing, Auckland, New Zealand, pp.267-271, Nov. 2002
+[1]: http://www.cse.psu.edu/~rtc12/CSE586Spring2010/papers/emBGsubtractAboutSandG.pdf
+[2]: document/캡스톤1_최종보고서.hwp
