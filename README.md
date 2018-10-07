@@ -22,9 +22,10 @@
 ### SCREEN SHOT
 -------
 
-<img src="img/screen_shot_1.png" width="400px"> 
-<img src="img/screen_shot_2.png" width="300px"> <img src="img/screen_shot_3.png" width="300px"> 
-<img src="img/screen_shot_4.png" width="300px"> <img src="img/screen_shot_5.png" width="300px"> 
+<img src="img/screen_shot_1.png" width="500px">
+
+<img src="img/screen_shot_2.png" width="320px"> <img src="img/screen_shot_3.png" width="320px">  
+<img src="img/screen_shot_4.png" width="320px"> <img src="img/screen_shot_5.png" width="320px">
 
 [1]: http://www.cse.psu.edu/~rtc12/CSE586Spring2010/papers/emBGsubtractAboutSandG.pdf
 [2]: document/캡스톤1_최종보고서.hwp
